@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+    <form style="margin-top: 1%;" method="POST" action="add.php">
+			<div class="form-group">
+				<label for="email">Email address:</label>
+				<input type="email" class="form-control" name="email" required autofocus>
+			</div>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" name="name" required>
+			</div>
+			<div class="form-group">
+				<label for="lastName">Last name:</label>
+				<input type="text" class="form-control" name="lastName" required>
+			</div>
+			<div class="form-group">
+				<label for="birthday">Birthday:</label>
+				<input type="date" class="form-control" name="birthday" required>
+			</div>
+			<div class="form-group">
+				<label for="numberOfGroup">Number of group:</label>
+				<input type="number" min="2" max="5" class="form-control" name="numberOfGroup" required>
+			</div>
+			<div class="form-group">
+				<label for="valueExam">Summary value of exam:</label>
+				<input type="number" min="1" max="300" class="form-control" name="valueExam" required>
+			</div>
+			<div class="form-group">
+				<label for="gender">Gender:</label>
+				<select class="form-control" name="gender" required>
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+    	</div>
+			<button type="submit" class="btn btn-primary" name="add">Add</button>
+    </form>
+ 
+</body>
+</html>

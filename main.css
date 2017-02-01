@@ -1,0 +1,10 @@
+form {
+  margin: 0 auto;
+	margin-top: 10%;
+	width: 200px;
+}
+
+.btn-primary {
+  position: relative;
+  left: 30%;
+}
