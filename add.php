@@ -25,6 +25,3 @@ $qry-> execute();
 
 echo "Success!";
 }
-else {
-	echo "Перепроверьте правильность данных";
-}
